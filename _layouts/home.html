@@ -2,6 +2,16 @@
 layout: default
 ---
 
+<div style="padding-top:2em;padding-bottom:2em">
+  <h1 style="font-size: 4em">
+  I am
+  <a style="color:#ff0066" href="/about" class="typewrite" data-period="2000" data-type='[ "AN EDUCATOR", "AN ENTREPRENEUR" ,"A WEB DEVELOPER"]'>
+    <span class="wrap"></span>
+  </a>.
+</h1>
+
+</div>
+
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -10,7 +20,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">Articles Written by Me </h2> <br />
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
@@ -27,8 +37,6 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-
-    <p class="feed-subscribe"><svg class="svg-icon orange"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
   {%- endif -%}
 
 </div>
