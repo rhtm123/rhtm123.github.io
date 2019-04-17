@@ -2,16 +2,25 @@
 layout: default
 ---
 
-<div style="padding-top:2em;padding-bottom:2em">
-  <h1 style="font-size: 4em">
-  I am
-  <a style="color:#ff0066" href="/about" class="typewrite" data-period="2000" data-type='[ "AN EDUCATOR", "AN ENTREPRENEUR" ,"A WEB DEVELOPER"]'>
-    <span class="wrap"></span>
-  </a>.
-</h1>
+<div style="background-image: url('https://cdn.pixabay.com/photo/2019/03/03/19/31/book-4032668_960_720.jpg');
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;">
 
+  <div style="padding-top:6em;padding-bottom:6em" class="wrapper" aria-label="Content">
+      <h1 class="page-heading" style="font-size: 4em; color: white">
+      I am
+      <a style="color:#ff0066; text-decoration: underline;" href="/about" class="typewrite" data-period="2000" data-type='[ "AN EDUCATOR", "AN ENTREPRENEUR" ,"A WEB DEVELOPER"]'>
+        <span class="wrap"></span>
+      </a>.
+    </h1>
+
+  </div>
 </div>
 
+<main class="page-content" aria-label="Content">  
+<div class="wrapper">
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
@@ -20,7 +29,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">Articles Written by Me </h2> <br />
+    <h2 class="post-list-heading">Articles </h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
@@ -40,3 +49,6 @@ layout: default
   {%- endif -%}
 
 </div>
+
+</div>
+</main>
