@@ -5,6 +5,12 @@
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   <link rel="icon" type="image/png" href="/favicon.png" />
+  <style type="text/css">
+    a { color: #0066ff; text-decoration: none; }
+a:visited { color: #1756a9; }
+a:hover { color:#ff0066; text-decoration: underline; }
+.site-title, .site-title:visited { color: #0066ff; font-weight: 400 }
+  </style>
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
