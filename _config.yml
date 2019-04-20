@@ -1,5 +1,5 @@
 title: Rohit Maurya
-email: rohit@gurukuk.guru
+email: rohit@gurukul.guru
 description: > # this means to ignore newlines until "show_exerpts:"
   This is official website of Rohit Maurya. He is an educator, web developer and entrepreneur.
   He founded Gurukul.Guru, an educational startup that is redefining education in India. 
@@ -13,8 +13,9 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: rhtm123
+    twitter: gurukuldotguru
     youtube: gurukuldotguru
+    linkedin: gurukuldotguru
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
