@@ -76,7 +76,7 @@ In this revolution, we created the Gurukul Education system in India.
 
 ### The Industrial Revolution
 
-We created the heat engine in the 70s. The Industrial Revolution was the transition to new manufacturing processes in Europe and the US. The economy was booming for many countries that effectively used this revolution. Big factories were created to manufacture clothes, cars, bikes, and many other mechanical materials.
+We created the heat engine in the 1700s. The Industrial Revolution was the transition to new manufacturing processes in Europe and the US. The economy was booming for many countries that effectively used this revolution. Big factories were created to manufacture clothes, cars, bikes, and many other mechanical materials.
 
 The education changed in the era as well. The companies required workers for factories. The education was more focused to prepare a student who could work in those factories. The people were becoming rich after working in factories. They started sending their children that were providing the training to work in factories.
 
