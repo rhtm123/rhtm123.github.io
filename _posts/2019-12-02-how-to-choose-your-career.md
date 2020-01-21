@@ -21,7 +21,6 @@ I am going to present "Career Magic Framework" that will help you to decide the 
 
 I have made a video on this topic. Watch the video.
 
-
 <iframe width="100%" height="300px" 
 src="https://www.youtube.com/embed/zCve1DTnr10" 
 frameborder="0" 
